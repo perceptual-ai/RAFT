@@ -27,7 +27,7 @@ tensorboard = ">=2.0.0"
 
 [tool.pixi.dependencies]
 raft-optical-flow = { path = "." }
-numpy = "<2.0.0"
+numpy = ">=2,<3.0.0"
 
 [tool.pixi.package]
 name = "raft-optical-flow"
@@ -40,4 +40,4 @@ backend = { name = "pixi-build-python", version = "0.1.*" }
 hatchling = "==1.26.3"
 
 [tool.pixi.package.run-dependencies]
-numpy = "<2.0.0"
+numpy = ">=2,<3.0.0"
